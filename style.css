@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, serif;
+  margin: 0;
+  height: 100%;
+}
+
+/*Section 1*/
+.header {
+  background-color: #1f2937;
+  flex: 1;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+  margin: 0 64px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+ }
+
+.logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  margin-right: auto;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 64px;
+}
+
+.header-message {
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  max-width: 400px;
+}
+
+.header-message h3 {
+  color:#f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.header-message p {
+  color:#e5e7eb;
+  font-size: 18px;
+}
+
+.header-img img{
+  max-width: 500px;
+  max-height: 300px;
+  border-radius: 16px;
+}
+
+.header-message .sign-up-button {
+  flex: 1;
+  background-color: #3882f6;
+  color: white;
+  max-height: 40px;
+  max-width: 120px;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  border-color: white;
+}
+
+
+/*Section 2*/
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.info h3 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.card img {
+  height: 200px;
+  width: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 8px;
+}
+
+/*Section 3*/
+.quote {
+  display: flex;  
+  flex-direction: column;
+  background-color: #e5e7eb;
+  margin: 64px 0px 32px 0px;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
+}
+
+b {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 64px;
+  padding-bottom: 16px;
+}
+
+
+/*Section 4*/
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-box {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 4px 16px;
+  min-width: 600px;
+}
+
+.sign-up-message {
+  flex: 1;
+}
+
+.sign-up-message h4 {
+  font-size: 24px;
+  color: #e5e7eb;
+  padding: 8px;
+  margin-bottom: -20px;
+}
+
+.sign-up-message p {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 8px;
+}
+
+.button-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container .sign-up-button {
+  flex: 1;
+  background-color: #3882f6;
+  color: white;
+  max-height: 40px;
+  max-width: 120px;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  border-color: white;
+}
+
+/*Section 5*/
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  margin-top: 32px;
+  color:#e5e7eb;
+  padding: 8px;
+}
